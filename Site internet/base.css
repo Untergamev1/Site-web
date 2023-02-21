@@ -1,22 +1,30 @@
 /* Police d'écriture */
 .container {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 700px;
-    height: 220px;
+    height: 1200px;
     margin: 0 auto;
     background-color: #e02a2a;
     opacity: 0.8;
     padding: 40px;
   }
-  
-  .item {
-    display: flex;
-    width: 600px;
-    height: 100px;
-    background-color: #65d43a;
-    margin: 8px;
-    padding: 10px;
-    font-size: 24px;
-    color: #fff;
+
+  body {
+    background-image: url("/Image/Twitch_8.jpg");
+    background-size: cover;
+  }
+
+  .Logo img {
+    width: 400px;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-family: Trebuchet MS, sans-serif;
+    color: #e7ab1e;
+    text-shadow: 2px 2px 2px #000;
+    position: absolute;
+    top: 100px;
+    right: 600px;
   }
