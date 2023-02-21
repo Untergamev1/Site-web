@@ -28,3 +28,57 @@
     top: 100px;
     right: 600px;
   }
+
+  .top-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #25dae7ae;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .login-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: Consolas;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 20px;
+    float: right;
+  }
+  
+  .register-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: Consolas;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 20px;
+    float: right;
+  }
+
+  .BasPage {
+    background-color: #000000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+  }
+  
+  .TextBaxPage {
+    list-style: none;
+    margin-left: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: none;
+  }
+li {
+    margin-right: 600px;
+}
+a{
+    text-decoration: none;
+}
