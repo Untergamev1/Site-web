@@ -32,3 +32,11 @@ L'élment div est un des conteneurs les plus anciens d'html. Il permet de créer
 W3C site pour dicter les bonnes pratiques du web 
 
 MDN web docs pour nous aider 
+
+Mime c'est tout ce qui touche aux formulaires
+
+Media c'est l'appareil sur lequel on regarde le site web 
+
+la déclaration elle est {} et elle est contenue dans le selecteur 
+
+Les assets c'est tout ce qui est fichier vidéo ect contenue dans ton doss
