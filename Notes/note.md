@@ -40,3 +40,5 @@ Media c'est l'appareil sur lequel on regarde le site web
 la déclaration elle est {} et elle est contenue dans le selecteur 
 
 Les assets c'est tout ce qui est fichier vidéo ect contenue dans ton doss
+
+Site pour les maquettes figma 

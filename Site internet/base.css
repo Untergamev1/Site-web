@@ -1,22 +1,32 @@
 /* Police d'écriture */
-.container {
-    display: block;
-    width: 700px;
-    height: 1200px;
-    margin: 0 auto;
-    background-color: #e02a2a;
-    opacity: 0.8;
-    padding: 40px;
-  }
 
   body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("/Image/Twitch_8.jpg");
     background-size: cover;
+    background-attachment: fixed;
   }
 
+   main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+   header {
+    display: flex;
+  }
+
+   footer {
+    display: flex;
+  }
+
+
   .Logo img {
-    width: 400px;
-    height: 200px;
+    width: 300px;
   }
 
   h1 {
@@ -24,9 +34,6 @@
     font-family: Trebuchet MS, sans-serif;
     color: #e7ab1e;
     text-shadow: 2px 2px 2px #000;
-    position: absolute;
-    top: 100px;
-    right: 600px;
   }
 
   .top-bar {
@@ -61,24 +68,18 @@
   .BasPage {
     background-color: #000000;
     color: #fff;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     height: 40px;
   }
   
   .TextBaxPage {
-    list-style: none;
     margin-left: 50px;
     padding: 30px;
-    display: flex;
-    flex-direction: row;
-    text-align: none;
   }
-li {
-    margin-right: 600px;
-}
-a{
-    text-decoration: none;
-}
+
+
+h2 {
+    font-size: 21px;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+  }
