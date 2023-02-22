@@ -42,3 +42,9 @@ la déclaration elle est {} et elle est contenue dans le selecteur
 Les assets c'est tout ce qui est fichier vidéo ect contenue dans ton doss
 
 Site pour les maquettes figma 
+
+En flex l'axe principale c'est le horizontal et le vertical c'est le secondaire, et quand on inverse l'axe dcp l'horizontal devient secondaire ect
+
+Quand on utilise des propriétés, le plus dur a savoir c'est de savoir si elle s'applique aux enfants ou aux parents
+
+Kevin Powell 
