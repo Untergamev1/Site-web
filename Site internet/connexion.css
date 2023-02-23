@@ -10,12 +10,15 @@
 body {
     background: linear-gradient(90deg,#0c6fc0,#0ed9f8);
     height: 100vh;
+    
+}
+
+main  {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
 }
-
 /*Le container en position relative pour faire en sorte que les modifications que stylistiques que l'on va faire 
 (comme des ombres) se fassent par rapport au container et pas au body. */
 
@@ -29,7 +32,7 @@ body {
  form {
     background: rgba(255, 255, 255, 0.3);
     padding: 4rem;
-    height: 500px;
+    height: 400px;
     border-radius: 20px;
     border-left: 2px solid rgba(255, 255, 255, 0.3); /*Effet qui rajoute de la profondeur au cadre*/
     border-top: 2px solid rgba(255, 255, 255, 0.3);
@@ -59,7 +62,7 @@ a {
 /* Sert à faire une action quand on passe la souris sur le lien (ici on met de l'ombre)*/
 
 a:hover {
-    text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.4);
 }
 
 /* Sert à configurer les input (donc les "passworld' et "login" */
@@ -97,3 +100,15 @@ input[type="button"] {
     font-size: 1rem;
     width: 140px;
 }
+
+.Logo img {
+    width: 300px;
+    cursor: pointer;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
