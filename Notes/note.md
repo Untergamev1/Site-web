@@ -48,3 +48,5 @@ En flex l'axe principale c'est le horizontal et le vertical c'est le secondaire,
 Quand on utilise des propriétés, le plus dur a savoir c'est de savoir si elle s'applique aux enfants ou aux parents
 
 Kevin Powell 
+
+Google fonts pour importer des polices de caractères
