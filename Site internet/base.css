@@ -1,7 +1,7 @@
 /* Police d'écriture */
 
   body {
-    background-image: url("/Image/Twitch_8.jpg");
+    background: linear-gradient(90deg,#0c6fc0,#0ed9f8);
     background-size: cover;
     background-attachment: fixed;
   }

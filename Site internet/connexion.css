@@ -1,0 +1,89 @@
+/*Visuel du block de connexion*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Visuel du fond d'écran*/
+
+body {
+    background: linear-gradient(90deg,#0c6fc0,#0ed9f8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/*Le container en position relative pour faire en sorte que les modifications que stylistiques que l'on va faire 
+(comme des ombres) se fassent par rapport au container et pas au body. */
+
+ .container {
+    position: relative;
+
+ }
+
+/*Le carré autour du container*/
+
+ form {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 4rem;
+    height: 500px;
+    border-radius: 20px;
+    border-left: 2px solid rgba(255, 255, 255, 0.3); /*Effet qui rajoute de la profondeur au cadre*/
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 50px -12px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+/* On va modifier ici la balise p qui correspondra à la forme du texte*/
+
+p {
+    color: white;
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(0, 30, 255);
+    transition: all .3s;
+}
+
+a:hover {
+    text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.2);
+}
+
+
+input {
+    padding: 1rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.201);
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: white;
+
+}
+
+input:hover,
+input[type="email"]:focus,
+input[type="passworld"]:focus {
+    background: rgba(0, 0, 0, 0.091)
+}
+
+input[type="button"] {
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    width: 140px;
+}
