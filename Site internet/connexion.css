@@ -47,6 +47,7 @@ p {
     margin-bottom: 40px;
 }
 
+/*On va modifier la balise a qui correspond à la balise a (donc les hyperlien)*/
 
 a {
     font-size: 14px;
@@ -55,10 +56,13 @@ a {
     transition: all .3s;
 }
 
+/* Sert à faire une action quand on passe la souris sur le lien (ici on met de l'ombre)*/
+
 a:hover {
     text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.2);
 }
 
+/* Sert à configurer les input (donc les "passworld' et "login" */
 
 input {
     padding: 1rem;
@@ -70,16 +74,22 @@ input {
     margin-bottom: 20px;
 }
 
+/* Sert à configurer les champs de formulaires*/
+
 ::placeholder {
     color: white;
 
 }
+
+/* Sert à configurer une action lorsque que la souris passe devant les champs de formulaires*/
 
 input:hover,
 input[type="email"]:focus,
 input[type="passworld"]:focus {
     background: rgba(0, 0, 0, 0.091)
 }
+
+/* Sert à configurer le changement de visuel de la souris lorsqu'elle pas devant le bouton connexion */
 
 input[type="button"] {
     cursor: pointer;
