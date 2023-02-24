@@ -59,3 +59,8 @@ Comment mettre google map sur son site web :
 
 On utilise une iframe (site web indépend de son site web, sauf qu'il est indé par rapport a notre site web ) mais faut faire très attention à CSS. IFram ce n'est rien d'autre qu'un élément html. 
 On peut utiliser open street map, c'est gratuit et c'est plus simple pour les dev.
+
+
+Faire un commit pull avant de push
+
+Vercel est un site qui premet d'héberger un site web
