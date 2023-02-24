@@ -123,6 +123,7 @@ footer {
   border-radius: 30px;
   font-size: 1.2em;
   box-shadow: 2px 1px 2px rgb(255, 255, 255, .5);
+  transition: .2s;
 }
 
 .button::after{
@@ -134,4 +135,15 @@ footer {
   top: -50px;
   left: -100px;
   z-index: -1;
+  transition: .5s;
+}
+
+.button:hover::after {
+  transform: rotate(150deg);
+}
+
+button:hover {
+  transform: translate(0, -6px);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+
 }
