@@ -114,14 +114,24 @@ footer {
 
 
 .button {
-  position: relative;
-  background: #444;
+  background: transparent;
   color: #fff;
   text-decoration: none;
-  text-transform: uppercase;
-  border: none;
-  letter-spacing: 0.1rem;
-  font-size: 1rem;
-  padding: 1rem 3rem;
-  transition: 0.2s;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  box-shadow: 2px 1px 2px rgb(255, 255, 255, .5);
+}
+
+.button::after{
+  content: "";
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(225deg, #27D86C 0%, #25caf8 50%, #c625d0 100%);
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  z-index: -1;
 }
