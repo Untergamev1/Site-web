@@ -1,0 +1,179 @@
+
+
+body {
+    background: linear-gradient(90deg,#0c6fc0,#0ed9f8);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+  }
+
+   main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+   header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  aside img {
+    width: 15%;
+    max-width: 450px;
+    max-height: 200px;
+    margin: 60px;
+  }
+
+
+
+  h1 {
+    font-size: 48px;
+    font-family: Trebuchet MS, sans-serif;
+    color: #e7ab1e;
+    text-shadow: 2px 2px 2px #000;
+    margin-top: -20px;
+  }
+
+
+  /* CSS de base pour la navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* CSS pour le logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* CSS pour les liens de la navbar */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  padding: 0 10px;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 9px 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+/* CSS pour le hamburger menu */
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+/* CSS pour rendre la navbar responsive */
+@media screen and (max-width: 833px) {
+  .nav-links {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 80px;
+    left: -100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+  }
+  
+  .hamburger-menu {
+    display: block;
+  }
+  
+  nav ul li a:visited {
+   color: #FF0000; /* mettez ici la couleur que vous souhaitez */
+  }
+
+}
+h2 {
+    font-size: 21px;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+  }
+
+h3 {
+    font-size: 21px;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+  }
+
+
+.button {
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  box-shadow: 2px 1px 2px rgb(255, 255, 255, .5);
+  transition: .2s;
+}
+
+.button::after{
+  content: "";
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(225deg, #27D86C 0%, #25caf8 50%, #c625d0 100%);
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  z-index: -1;
+  transition: .5s;
+}
+
+.button:hover::after {
+  transform: rotate(150deg);
+}
+
+button:hover {
+  transform: translate(0, -6px);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+
+}
