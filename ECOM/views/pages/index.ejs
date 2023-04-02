@@ -55,6 +55,27 @@
 </main>
 <br>
 <br>
+
+
+    <h2>Test de l'algo</h2>
+    <ul>
+        <% for (let i = 0; i<produits.length; i++) {%>
+        <li>
+            <h4><%=produits[i].item_name%></h4>
+            <p><%=produits[i].price%>€</p>
+            <form action="/panier" method="post">
+                <input type="hidden" name="idProduits" value="<%=produits[i].id%>"/>
+                <input type="submit" value="Ajouter au panier"/>
+            </form>
+        </li>
+        <% } %>
+    </ul>
+
+
+
+
+
+
 <br>
 <br>
 <br>
@@ -63,9 +84,9 @@
 <br>
 <br>
 <aside>
-    <img src="/Image/bronze4.png" alt="LevelUp">
-    <img src="/Image/fleche.png" alt="LevelUp">
-    <img src="/Image/diamant4.png" alt="LevelUp">
+    <img src="/img/bronze4.png" alt="LevelUp">
+    <img src="/img/fleche.png" alt="LevelUp">
+    <img src="/img/diamant4.png" alt="LevelUp">
 </aside>
 <br>
 <br>
