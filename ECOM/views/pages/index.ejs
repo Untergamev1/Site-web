@@ -65,6 +65,9 @@
             <p><%=produits[i].price%>€</p>
             <form action="/panier" method="post">
                 <input type="hidden" name="idProduits" value="<%=produits[i].id%>"/>
+                <input type="hidden" name="user_id" value="<%=produits[i].id%>"/>
+                <input type="hidden" name="" value="<%=produits[i].id%>"/>
+                <input type="hidden" name="" value="<%=produits[i].id%>"/>
                 <input type="submit" value="Ajouter au panier"/>
             </form>
         </li>
